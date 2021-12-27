@@ -1,4 +1,55 @@
-body {
-  background-color: aquamarine;
-  font-family: "Comfortaa", cursive;
+h1,
+h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+  font-family: "Playfair Display", serif;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  display: block;
+  line-height: 1.5;
+}
+.hero {
+  text-align: center;
+  background-color: rgb(197, 184, 255);
+  padding: 160px 20px;
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+h1 {
+  font-size: 96px;
+  display: block;
+  color: black;
+}
+.hero h2 {
+  font-weight: normal;
+  line-height: 2;
+  font-size: 24px;
+}
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+.btn:hover {
+  color: black;
+}
+.btn-branding {
+  background: #6c63ff;
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
