@@ -1,3 +1,30 @@
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.navbar li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #272142;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: rgb(197, 184, 255);
+}
 h1,
 h2 {
   text-align: center;
@@ -13,6 +40,10 @@ p {
   font-size: 16px;
   line-height: 1.7;
 }
+.logo {
+  max-width: 150px;
+}
+
 .hero {
   text-align: center;
   background-color: rgb(197, 184, 255);
@@ -125,5 +156,10 @@ h2 {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
+    margin: 10px;
   }
 }
