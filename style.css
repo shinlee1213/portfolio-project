@@ -51,7 +51,7 @@ p {
 .hero {
   text-align: center;
   background-color: rgb(197, 184, 255);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 .hero p {
   font-size: 36px;
@@ -132,7 +132,7 @@ h2 {
 }
 
 .content-section {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -192,7 +192,7 @@ footer .social-links a:hover {
   }
 
   .hero {
-    padding: 80px 20px;
+    padding: 60px 20px;
   }
   .project-description {
     padding: 0;
