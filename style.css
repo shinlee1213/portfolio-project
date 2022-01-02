@@ -34,6 +34,10 @@ h2 {
   line-height: 1.2;
   font-family: "Playfair Display", serif;
 }
+h4 {
+  font-family: "Playfair Display", serif;
+  font-size: 48px;
+}
 p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
@@ -140,6 +144,43 @@ h2 {
   font-size: 24px;
   font-weight: bold;
   line-height: 1.5;
+}
+
+footer {
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: rgb(197, 184, 255);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: rgb(197, 184, 255);
+}
+
+footer .social-links a {
+  margin: 0 30px;
+  color: #6c63ff;
+  padding: 10px 14px;
+  font-size: 24px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: rgb(197, 184, 255);
 }
 @media (max-width: 960px) {
   h1 {
